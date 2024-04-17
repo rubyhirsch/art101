@@ -1,9 +1,66 @@
 /* Here we can set styles for this lab page that we don't want to effect others pages */
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
+body {
+  background-color: rgb(204,179,147);
+}
+
 .minor-section {
     padding: 10px;
     margin-bottom: 10px;
     border: solid 1px #888;
-    background-color: #DDD8C4;
+    background-color: rgb(247,227,213);
   }
+
+#content {
+  background-color: rgb(31,36,21);
+}
+
+h1 {
+  font-size: 500%;
+  color: rgb(133,168,151);
+  font-family: fantasy;
+}
+
+h2 {
+  font-size: 200%;
+  font-family: fantasy;
+  font-weight: bold; 
+}
+
+p {
+  color: rgb(21,36,23);
+  font-size: 150%;
+  margin-left: 35px;
+  font-family:fantasy;
+}
+
+img.pile{
+  height: 300px;
+  display: block; /*we got this from W3 schools. "How to Center Images"*/
+  border-style: dashed;
+  border-color: lightblue;
+}
+
+img.stretch{
+  width: 1218px;
+  height: 300px;
+  display: block; /*we got this from W3 schools. "How to Center Images"*/
+  border-style: dashed;
+  border-color: lightblue;
+}
+
+/* We got this from "Align Images side by Side" by W3 School*/
+/*https://www.w3schools.com/howto/howto_css_images_side_by_side.asp*/
+ .column {
+  float: left; 
+  width: 25%;
+  padding: 5px; 
+ }
+
+ .row::after {
+  content: "";
+  clear: both;
+  display: table;
+ }
+
