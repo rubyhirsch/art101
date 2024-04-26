@@ -7,3 +7,23 @@
     border: solid 1px #888;
     background-color: #DDD8C4;
   }
+
+  .talk {
+    font-style: italic;
+    font-family: "Courier";
+  }
+
+  .italic {
+    font-style: italic;
+  }
+
+  .calvin {
+    font-style: bold;
+    font-size: xx-large;
+    font-family: Impact;
+    color: rgb(141, 180, 239);
+  }
+
+  img {
+    width: 800px;
+  }
