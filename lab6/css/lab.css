@@ -2,11 +2,26 @@
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
 .minor-section {
-    padding: 10px;
-    margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: #DDD8C4;
-  }
+  padding: 10px;
+  margin-bottom: 10px;
+  border: solid 1px #888;
+  background-color: #eafdcbcb;
+}
+
+h1,h2,h3 {
+text-align: left;
+letter-spacing: 5px;
+word-spacing: 5px;
+font-family:'Courier New', Courier, monospace;
+font-size: 200%;
+}
+
+p {
+text-align: left;
+word-spacing: 5px;
+font-family:'Courier New', Courier, monospace;
+font-size: 180%;
+}
 
   .talk {
     font-style: italic;
