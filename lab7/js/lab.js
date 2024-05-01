@@ -4,7 +4,9 @@
 
 //Define function 
 function getUserName() {
+    //prompt to ask user their name 
     const userName = window.prompt("Ye name?!");
+    //convert name into an array, join the array and turn into string 
     return userName.split('').sort().join('');
 }
 
