@@ -1,0 +1,13 @@
+.special {
+    background-color : crimson;
+    border : dashed;
+    color : seashell;
+    font-weight : bold;
+}
+
+.smecial {
+    background : teal; 
+    border : dotted; 
+    color : seashell; 
+    font-weight : bold;
+}
