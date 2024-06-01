@@ -1,0 +1,34 @@
+
+h1,h2,h3 {
+    text-align: left;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 200%;
+  }
+  
+  p {
+    text-align: left;
+    word-spacing: 5px;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 180%;
+  }
+
+  .output{
+    /* we looked at column styles with W3 schools
+    https://www.w3schools.com/css/css3_multiple_columns.asp */
+    column-count: 6;
+    column-gap: 40px; 
+    column-rule-style: double; 
+  }
+
+  .num { 
+    font-family: Courier;
+    font-weight: lighter; 
+  }
+
+  .text {
+    font-weight: bold; 
+    font-style: italic; 
+  }
+
