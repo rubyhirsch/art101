@@ -1,0 +1,47 @@
+h1,h2,h3 {
+    text-align: left;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 200%;
+  }
+  
+  p {
+    text-align: left;
+    word-spacing: 5px;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 180%;
+  }
+
+  #output1 {
+    font-size: 130%;
+    font-weight: bold;
+  }
+
+  #output2 {
+    font-size: 130%;
+    font-weight: bold;
+  }
+
+  #output3 {
+    font-size: 130%;
+    font-weight: bold;
+  }
+
+  #old {
+    font-size: 130%;
+    font-weight: bold;
+  }
+
+  #smallFont {
+    font-style: italic; 
+    font-size: 170%;
+  }
+
+  .debuggingBox {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 1px #888;
+    background-color: rgb(255, 247, 241);
+  }
+
